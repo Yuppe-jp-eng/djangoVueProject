@@ -1,0 +1,1152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-02 10:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/front/forms/booking.py:22
+msgid "1人目接種券番号"
+msgstr "Número da ficha de vacinação da primeira pessoa a ser vacinada."
+
+#: apps/front/forms/booking.py:26 apps/front/forms/booking.py:34
+#: apps/front/forms/booking.py:42 apps/front/forms/booking.py:50
+#: apps/front/forms/booking.py:58 apps/front/forms/login.py:13
+#: apps/manage/forms/login.py:13
+msgid "10桁の半角数字で入力してください"
+msgstr "Insira os dez dígitos da ficha de vacinação."
+
+#: apps/front/forms/booking.py:30
+msgid "2人目接種券番号"
+msgstr "Número da ficha de vacinação da segunda pessoa a ser vacinada."
+
+# TODO TR
+#: apps/front/forms/booking.py:31 apps/front/forms/booking.py:39
+#: apps/front/forms/booking.py:47 apps/front/forms/booking.py:55
+msgid "接種券番号を入力"
+msgstr "Introduzir o número do bilhete de vacinação"
+
+#: apps/front/forms/booking.py:38
+msgid "3人目接種券番号"
+msgstr "Número da ficha de vacinação da terceira pessoa a ser vacinada."
+
+#: apps/front/forms/booking.py:46
+msgid "4人目接種券番号"
+msgstr "Número da ficha de vacinação da quarta pessoa a ser vacinada."
+
+#: apps/front/forms/booking.py:54
+msgid "5人目接種券番号"
+msgstr "Número da ficha de vacinação da quinta pessoa a ser vacinada."
+
+#: apps/front/forms/booking.py:62
+msgid "2人目生年月日"
+msgstr "Data de nascimento da segunda pessoa."
+
+# TODO TR
+#: apps/front/forms/booking.py:63 apps/front/forms/booking.py:71
+#: apps/front/forms/booking.py:79 apps/front/forms/booking.py:87
+msgid "生年月日を入力"
+msgstr "Introduzir a data de nascimento"
+
+#: apps/front/forms/booking.py:70
+msgid "3人目生年月日"
+msgstr "Data de nascimento da terceira pessoa."
+
+#: apps/front/forms/booking.py:78
+msgid "4人目生年月日"
+msgstr "Data de nascimento da quarta pessoa."
+
+#: apps/front/forms/booking.py:86
+msgid "5人目生年月日"
+msgstr "Data de nascimento da quinta pessoa."
+
+#: apps/front/forms/booking.py:128
+msgid "接種券番号を入力した場合は生年月日も入力してください"
+msgstr ""
+"Insira a data de nascimento caso já tenha inserido o número da ficha de "
+"vacinação."
+
+#: apps/front/forms/booking.py:131
+msgid "生年月日を入力した場合は接種券番号も入力してください"
+msgstr ""
+"Insira o número da ficha de vacinação caso já tenha inserido a data de "
+"nascimento."
+
+#: apps/front/forms/booking.py:136 apps/front/forms/login.py:37
+#: apps/manage/forms/login.py:36
+msgid "接種券番号と生年月日が一致しません"
+msgstr "Número da ficha de vacinação e data de nascimento não correspondem."
+
+# TODO TR
+#: apps/front/forms/booking.py:141
+msgid "予約済みの接種券は入力できません"
+msgstr "Não é possível introduzir o bilhete de vacinação reservado."
+
+#: apps/front/forms/booking.py:147
+msgid "重複した接種券番号が入力されています"
+msgstr "O número da ficha de vacinação que você inseriu já foi usado. "
+
+#: apps/front/forms/contact.py:8 apps/templates/front/confirmation.html:30
+msgid "予約者氏名"
+msgstr "Nome do responsável pela reserva"
+
+#: apps/front/forms/contact.py:9
+msgid "予約者氏名を入力"
+msgstr "Insira o nome do responsável pela reserva."
+
+#: apps/front/forms/contact.py:11
+msgid "255文字以内で入力してください"
+msgstr "Limite de 255 caracteres"
+
+#: apps/front/forms/contact.py:15 apps/templates/front/confirmation.html:32
+msgid "連絡先電話番号"
+msgstr "Número de telefone de contato"
+
+#: apps/front/forms/contact.py:16
+msgid "連絡先電話番号を入力"
+msgstr "Insira o número do telefone de contato"
+
+# TODO TR
+#: apps/front/forms/contact.py:19
+msgid "0から始まる10-11桁の半角数字で入力してください"
+msgstr "Número de telefone deve conter de 10 a 11 dígitos"
+
+#: apps/front/forms/contact.py:23
+msgid "個人情報の取り扱いに同意する"
+msgstr "Estou de acordo com o tratamento dos meus meus dados pessoais"
+
+#: apps/front/forms/login.py:10 apps/manage/forms/login.py:10
+#: apps/templates/front/add_person.html:18
+#: apps/templates/front/add_person.html:43
+#: apps/templates/front/add_person.html:72
+#: apps/templates/front/add_person.html:101
+#: apps/templates/front/add_person.html:130
+#: apps/templates/front/confirm_vaccination_date.html:8
+#: apps/templates/front/confirmation.html:12 apps/templates/front/login.html:81
+msgid "接種券番号"
+msgstr "Número do ficha de vacinação"
+
+#: apps/front/forms/login.py:17 apps/manage/forms/login.py:17
+#: apps/templates/front/add_person.html:21
+#: apps/templates/front/add_person.html:52
+#: apps/templates/front/add_person.html:81
+#: apps/templates/front/add_person.html:110
+#: apps/templates/front/add_person.html:139
+#: apps/templates/front/confirm_vaccination_date.html:10
+#: apps/templates/front/login.html:91
+msgid "生年月日"
+msgstr "Data de nascimento"
+
+#: apps/front/views/booking.py:66 apps/front/views/booking.py:130
+msgid "指定された予約枠が埋まっています"
+msgstr "Data e horário escolhidos estão lotados."
+
+#: apps/front/views/booking.py:186
+msgid "予約確定に失敗しました。"
+msgstr "Não foi possível realizar sua reserva."
+
+#: apps/front/views/confirmation.py:52
+msgid "予約確定に失敗しました。1回目の予約からやり直してください。"
+msgstr ""
+"Não foi possível realizar sua reserva. Tente novamente desde a primeira."
+
+# TODO TR
+#: apps/front/views/confirmation.py:85
+#, python-format
+msgid "次の接種日は明日です"
+msgid_plural "次の接種日は%(left_days)s日後です"
+msgstr[0] "A sua próxima data de inoculação é um dia depois"
+msgstr[1] "A sua próxima data de inoculação é %(left_days)s dias depois."
+
+# TODO TR
+#: apps/front/views/confirmation.py:89
+msgid "本日が接種日です"
+msgstr "Hoje é a sua data de vacinação."
+
+#: apps/front/views/confirmation.py:91
+msgid "接種日は既に過ぎています。"
+msgstr "Sua reserva já foi aprovada."
+
+# TODO TR
+#: apps/front/views/contact.py:18 apps/front/views/contact.py:36
+msgid ""
+"一定時間が経過したために予約に失敗しました。日程選択をやり直してください。"
+msgstr ""
+"A sua reserva falhou porque passou um certo período de tempo. Por favor, "
+"tente seleccionar a data e a hora novamente."
+
+# TODO TR
+#: apps/lib/enum.py:89 apps/templates/front/done.html:4
+msgid "完了"
+msgstr "Feito"
+
+# TODO TR
+#: apps/lib/enum.py:90
+msgid "接種待ち"
+msgstr "À espera"
+
+# TODO TR
+#: apps/lib/enum.py:91
+msgid "仮予約"
+msgstr "Estado temporário"
+
+# TODO TR
+#: apps/lib/enum.py:92
+msgid "キャンセル"
+msgstr "Cancelar"
+
+# TODO TR
+#: apps/lib/utils.py:139
+#, fuzzy, python-format
+#| msgid ""
+#| "日野町コロナワクチン集団接種の%(ordinal_number)s接種予約（%(j_start_time)s"
+#| "%(e_start_time)s）がキャンセルされました。"
+msgid ""
+"日野町コロナワクチン集団接種の%(ordinal_number)s接種予約（%(j_start_time)s"
+"%(e_start_time)s）がキャンセルされました。"
+msgstr ""
+"A %(ordinal_number)s reserva de vacinação (%(e_start_time)s) para a vacina "
+"Hino Town COVID-19 foi cancelada."
+
+# TODO TR
+#: apps/lib/utils.py:146
+msgid "お手数ですが、再予約をお願い致します。"
+msgstr "Desculpe incomodá-lo, mas faça uma reserva novamente."
+
+# TODO TR
+#: apps/services/vaccination.py:41
+msgid "15歳以下の方の予約は受付できません"
+msgstr "Menores de 15 anos não podem fazer reservas."
+
+# TODO TR
+#: apps/services/vaccination.py:44
+msgid "現在16歳から29歳までの方の予約は受け付けておりません"
+msgstr "Atualmente de 16 a 29 anos não podem fazer reservas."
+
+# TODO TR
+#: apps/services/vaccination.py:47
+msgid "現在30歳から39歳までの方の予約は受け付けておりません"
+msgstr "Atualmente de 30 a 39 anos não podem fazer reservas."
+
+# TODO TR
+#: apps/services/vaccination.py:50
+msgid "現在40歳から49歳までの方の予約は受け付けておりません"
+msgstr "Atualmente de 40 a 49 anos não podem fazer reservas."
+
+# TODO TR
+#: apps/services/vaccination.py:53
+msgid "現在50歳から59歳までの方の予約は受け付けておりません"
+msgstr "Atualmente de 50 a 59 anos não podem fazer reservas."
+
+# TODO TR
+#: apps/services/vaccination.py:56
+msgid "現在60歳から64歳までの方の予約は受け付けておりません"
+msgstr "Atualmente de 60 a 64 anos não podem fazer reservas."
+
+#: apps/templates/400.html:6 apps/templates/403.html:6
+#: apps/templates/404.html:6 apps/templates/500.html:6
+#: apps/templates/front/_base.html:23 apps/templates/front/_base.html:42
+#: apps/templates/front/inquiry.html:17 apps/templates/front/login.html:18
+#: apps/templates/front/privacy.html:17 apps/templates/front/terms.html:17
+msgid "滋賀県日野町"
+msgstr "Cidade de Hino, Província de Shiga"
+
+# TODO TR
+#: apps/templates/400.html:10
+msgid "不正なリクエスト"
+msgstr "Mau pedido"
+
+# TODO TR
+#: apps/templates/400.html:11
+msgid "リクエストの形式が正しくありません"
+msgstr "O formato do pedido é inválido."
+
+#: apps/templates/400.html:13 apps/templates/403.html:13
+#: apps/templates/404.html:13 apps/templates/500.html:13
+#: apps/templates/front/add_person.html:153 apps/templates/front/cancel.html:14
+#: apps/templates/front/confirmation.html:38
+#: apps/templates/front/contact.html:47 apps/templates/front/first.html:148
+#: apps/templates/front/privacy.html:93 apps/templates/front/recommend.html:40
+#: apps/templates/front/recommend.html:47 apps/templates/front/second.html:111
+#: apps/templates/front/terms.html:193
+msgid "戻る"
+msgstr "Voltar"
+
+#: apps/templates/403.html:10
+msgid "アクセス権限エラー"
+msgstr "Acesso negado"
+
+#: apps/templates/403.html:11
+msgid "アクセスされたページは表示できません"
+msgstr "Esta página não está disponível."
+
+# TORO TR
+#: apps/templates/404.html:10
+msgid "ページが見つかりませんでした"
+msgstr "Não foi possível encontrar esta página."
+
+#: apps/templates/404.html:11
+msgid "アクセスされたページは、移動または削除された可能性があります。"
+msgstr "A página acessada pode ter sido movida ou excluída."
+
+#: apps/templates/500.html:10
+msgid "サーバーエラー"
+msgstr "Erro do servidor"
+
+#: apps/templates/500.html:11
+msgid ""
+"サーバーがエラーを検出したため、ページを表示することができませんでした。しば"
+"らく時間をおいてからもう一度アクセスして頂くか、管理者にお問い合わせくださ"
+"い。"
+msgstr ""
+"Esta página não pode ser exibida devido a um erro de servidor. Aguarde um "
+"momento e tente acessar novamente ou entre em contato com o administrador da "
+"página."
+
+#: apps/templates/front/_base.html:23 apps/templates/front/_base.html:44
+#: apps/templates/front/inquiry.html:18 apps/templates/front/login.html:19
+#: apps/templates/front/privacy.html:18 apps/templates/front/terms.html:18
+msgid "コロナワクチン集団接種予約"
+msgstr "Reserva para vacinação em grupo contra COVID-19"
+
+# TODO TR
+#: apps/templates/front/_base.html:67
+msgid "利用規約"
+msgstr "Termos de Serviço"
+
+# TODO TR
+#: apps/templates/front/_base.html:68
+msgid "プライバシーポリシー"
+msgstr "Política de Privacidade"
+
+# TODO TR
+#: apps/templates/front/_base.html:69 apps/templates/front/inquiry.html:21
+msgid "お問い合わせ"
+msgstr "Contacte-nos"
+
+#: apps/templates/front/add_person.html:7 apps/templates/front/first.html:4
+#: apps/templates/front/recommend.html:6
+msgid "接種日時予約"
+msgstr "Reserva de data e horário para vacinação"
+
+#: apps/templates/front/add_person.html:12
+msgid "同時に予約を行いたい方の接種券番号と生年月日を入力してください"
+msgstr ""
+"Insira o número da ficha de vacinação e a data de nascimento das pessoas que "
+"você quer reservar a vacinação."
+
+#: apps/templates/front/add_person.html:26
+msgid "1人目"
+msgstr "Primeiro"
+
+#: apps/templates/front/add_person.html:37
+msgid "2人目"
+msgstr "Segundo"
+
+#: apps/templates/front/add_person.html:66
+msgid "3人目"
+msgstr "Terceiro"
+
+#: apps/templates/front/add_person.html:95
+msgid "4人目"
+msgstr "Quarto"
+
+#: apps/templates/front/add_person.html:124
+msgid "5人目"
+msgstr "Quinto"
+
+#: apps/templates/front/add_person.html:154
+msgid "確認する"
+msgstr "Confirmar"
+
+#: apps/templates/front/cancel.html:6
+msgid "予約キャンセルの確認"
+msgstr "Confirmar cancelamento da reserva"
+
+#: apps/templates/front/cancel.html:7
+msgid ""
+"下記の予約をキャンセルします。一度キャンセルした内容を、復旧させることはでき"
+"ませんので、再度予約の手続きを行ってください。"
+msgstr ""
+"Desejo cancelar a reserva abaixo. Uma vez cancelada, não é possivel "
+"recuperar os dados da reserva.Você terá de refazer todos os procedimentos "
+"desde o começo."
+
+#: apps/templates/front/cancel.html:8
+msgid ""
+"なお、ワクチンの在庫の関係で、1回目と2回目は原則3週間後の同曜日同時間とさせて"
+"いただいておりますので、両方の予約がキャンセルとなりますので、ご注意くださ"
+"い。"
+msgstr ""
+"Note que ambas datas da primeira e segunda doses serão canceladas. Como via "
+"de regra, devido a questões de estoque, a segunda dose da vacina é aplicada "
+"3 semanas após a primeira dose, no mesmo dia da semana e horário da primeira."
+
+# TODO TR
+#: apps/templates/front/cancel.html:9
+msgid ""
+"また、1回目の接種が完了している場合、2回目の予約のみキャンセルとなります。"
+msgstr ""
+"Além disso, se já tiver completado a sua primeira vacinação, apenas a sua "
+"segunda reserva será cancelada."
+
+#: apps/templates/front/cancel.html:9
+msgid "その場合の再予約はコールセンターまで問い合わせください。"
+msgstr ""
+"Nesse caso, entre em contato com a central de atendimento para fazer uma "
+"nova reserva."
+
+#: apps/templates/front/cancel.html:15
+msgid "内容確認の上、"
+msgstr "Após verificar dados da reserva, afirmo que "
+
+#: apps/templates/front/cancel.html:15
+#: apps/templates/front/post_confirmation.html:29
+msgid "予約をキャンセルする"
+msgstr "Desejo cancelar a reserva"
+
+# TODO TR
+#: apps/templates/front/cancel_complete.html:5
+msgid "キャンセルが完了しました"
+msgstr "A sua reserva foi cancelada."
+
+# TODO TR
+#: apps/templates/front/cancel_complete.html:9
+#: apps/templates/front/done.html:11 apps/templates/front/first.html:146
+#: apps/templates/front/inquiry.html:39
+#: apps/templates/front/post_confirmation.html:32
+msgid "トップページに戻る"
+msgstr "Voltar ao topo"
+
+# TODO TR
+#: apps/templates/front/confirm_my_number_code.html:5
+msgid "個人識別情報用コード確認画面"
+msgstr ""
+"Tela de confirmação de código para informações de identificação pessoal"
+
+# TODO TR
+#: apps/templates/front/confirm_my_number_code.html:8
+msgid ""
+"xIDのアプリに個人識別情報確認の通知が届きます。選択肢の中から、以下の6桁の"
+"コードを選択してください。"
+msgstr ""
+"Por favor, seleccione o seguinte código de 6 dígitos a partir das opções "
+"apresentadas na aplicação."
+
+# TODO TR
+#: apps/templates/front/confirm_my_number_code.html:10
+msgid ""
+"6桁のコードを選択後、個人識別情報の入力画面が表示されますので、個人識別情報を"
+"入力してください。入力後は、マイナンバーカードを使用して認証を行ってくださ"
+"い。"
+msgstr ""
+"Depois de ter seleccionado o seu código de 6 dígitos, aparecerá o ecrã de "
+"informações de identificação pessoal é exibida. Por favor, insira suas "
+"informações de identificação pessoal. Depois disso, utilize o seu cartão Meu "
+"Número para autenticar."
+
+# TODO TR
+#: apps/templates/front/confirm_my_number_code.html:11
+msgid ""
+"※6桁のコードを選ばずに長時間経過した場合や6桁のコードを間違えて入力した場合"
+"は、xIDの認証からやり直しとなります。"
+msgstr ""
+"Se passar muito tempo sem seleccionar o código de seis dígitos, ou se "
+"introduzir o código de seis dígitos errado, terá de começar de novo a partir "
+"da autenticação xID."
+
+#: apps/templates/front/confirm_vaccination_date.html:5
+msgid "当日用予約確認画面"
+msgstr "Confirmar a reserva no dia"
+
+# TODO TR
+#: apps/templates/front/confirm_vaccination_date.html:27
+msgid "予約トップページに戻る"
+msgstr "Voltar ao topo"
+
+#: apps/templates/front/confirmation.html:6
+msgid "内容確認"
+msgstr "Desejo verificar os dados da reserva"
+
+# TODO TR
+#: apps/templates/front/confirmation.html:7
+msgid "予約はまだ完了していません"
+msgstr "Reserva ainda não completada"
+
+#: apps/templates/front/confirmation.html:8
+msgid "下記で予約しますので、内容をご確認ください。"
+msgstr ""
+"Sua reserva será realizada conforme os dados abaixo. Por favor, verifique as "
+"informações."
+
+#: apps/templates/front/confirmation.html:20
+#: apps/templates/front/parts/booking_detail.html:7
+#, python-format
+msgid "%(ordinal_number)sの予約"
+msgstr "%(ordinal_number)s reserva"
+
+#: apps/templates/front/confirmation.html:23
+#: apps/templates/front/parts/booking_detail.html:12
+msgid "予約日時"
+msgstr "Data e hora da reserva"
+
+#: apps/templates/front/confirmation.html:24 apps/templates/front/first.html:93
+#: apps/templates/front/first.html:95
+#: apps/templates/front/parts/booking_detail.html:13
+#: apps/templates/front/recommend.html:22 apps/templates/front/second.html:63
+msgid "start_date format short"
+msgstr "j/F"
+
+#: apps/templates/front/confirmation.html:24 apps/templates/front/first.html:93
+#: apps/templates/front/first.html:95 apps/templates/front/second.html:63
+msgid "start_hours format"
+msgstr "G:"
+
+#: apps/templates/front/confirmation.html:24 apps/templates/front/first.html:93
+#: apps/templates/front/first.html:95 apps/templates/front/second.html:63
+msgid "start_minutes format"
+msgstr "i"
+
+#: apps/templates/front/confirmation.html:24
+#, python-format
+msgid ""
+"%(start_date)s %(start_hours)s<span class=\"minutes\">%(start_minutes)s</"
+"span>〜%(end_hours)s<span class=\"minutes\">%(end_minutes)s</span>"
+msgstr ""
+
+# TODO TR
+#: apps/templates/front/confirmation.html:27
+#: apps/templates/front/parts/booking_detail.html:17
+msgid "接種会場"
+msgstr "Sessões de vacinação"
+
+#: apps/templates/front/confirmation.html:34
+msgid "個人情報の取り扱い(プライバシーポリシー)に同意する"
+msgstr "Estou de acordo com o tratamento dos meus meus dados pessoais"
+
+#: apps/templates/front/confirmation.html:35
+msgid "同意する"
+msgstr "Concordo"
+
+#: apps/templates/front/confirmation.html:39
+msgid "上記内容で予約する"
+msgstr "Concluir reserva conforme dados acima."
+
+#: apps/templates/front/contact.html:4
+msgid "連絡先情報"
+msgstr "Informações de contato"
+
+#: apps/templates/front/contact.html:5
+msgid "連絡先情報を入力してください。"
+msgstr "Insira as informações de contato"
+
+#: apps/templates/front/contact.html:27
+msgid "PrivacyAgreePrefix"
+msgstr " "
+
+#: apps/templates/front/contact.html:27
+msgid "PrivacyAgreeLabel"
+msgstr "Estou de acordo com o tratamento dos meus meus dados pessoais"
+
+#: apps/templates/front/contact.html:27
+msgid "PrivacyAgreeSuffix"
+msgstr "."
+
+#: apps/templates/front/contact.html:48
+msgid "内容確認へ進む"
+msgstr "Prosseguir para verificação de conteúdo"
+
+#: apps/templates/front/done.html:6
+msgid "お手続きありがとうございます。"
+msgstr "Muito obrigado"
+
+#: apps/templates/front/done.html:6
+msgid "予約を受け付けました。"
+msgstr "Sua reserva foi aceita."
+
+#: apps/templates/front/first.html:9
+msgid "ワクチン接種日を予約します。"
+msgstr "Desejo reservar o dia da vacinação."
+
+#: apps/templates/front/first.html:10
+msgid "ワクチンの在庫の関係で同時の予約をお願いしております。"
+msgstr ""
+"Devido a questões de estoque, as reservas para primeira e segunda doses são "
+"realizadas ao mesmo tempo."
+
+#: apps/templates/front/first.html:11 apps/templates/front/second.html:10
+msgid ""
+"1回目のワクチン接種から3週間後に2回目の接種を行っていただく必要がございます。"
+msgstr ""
+"A segunda dose da vacina deve ser aplicada 3 semanas após a primeira dose."
+
+# TODO TR
+#: apps/templates/front/first.html:14
+msgid ""
+"ワクチン接種対象者の管理のため、原則として本日より3日後以降の予約のみ受け付け"
+"ております。"
+msgstr ""
+"Para gerir as pessoas vacinadas, como regra geral, só aceitamos reservas "
+"para 3 dias ou mais a partir de hoje."
+
+#: apps/templates/front/first.html:17
+msgid "※複数名分の予約を一括で行うこともできます。"
+msgstr "Você também pode fazer a reserva de várias pessoas de uma só vez."
+
+#: apps/templates/front/first.html:19
+msgid "複数まとめて予約"
+msgstr "Reserva múltipla"
+
+# TODO TR
+#: apps/templates/front/first.html:24
+#, python-format
+msgid "以下の接種券番号の%(user_count)s名分をまとめて予約します"
+msgstr "Pode reservar %(user_count)s pessoas ao mesmo tempo"
+
+#: apps/templates/front/first.html:37 apps/templates/front/second.html:14
+msgid "日時を選択"
+msgstr "Selecionar data e horário"
+
+#: apps/templates/front/first.html:87 apps/templates/front/second.html:57
+#: apps/templates/manage/booking/edit_datetime.html:73
+#: apps/templates/manage/booking/register_book.html:83
+msgid "〜"
+msgstr "-"
+
+#: apps/templates/front/first.html:93 apps/templates/front/first.html:95
+#: apps/templates/front/second.html:63
+#, python-format
+msgid ""
+"%(start_date)s %(start_hours)s<span class=&quot;minutes&quot;>"
+"%(start_minutes)s</span>〜"
+msgstr ""
+
+# TODO TR
+#: apps/templates/front/first.html:98 apps/templates/front/second.html:66
+msgid "△"
+msgstr "Poucos horários disponíveis"
+
+# TODO TR
+#: apps/templates/front/first.html:98 apps/templates/front/second.html:66
+msgid "◯"
+msgstr "Muitos horários disponíveis"
+
+# TODO TR
+#: apps/templates/front/first.html:100 apps/templates/front/second.html:68
+msgid "×"
+msgstr "Sem horários disponíveis"
+
+#: apps/templates/front/first.html:116 apps/templates/front/second.html:84
+msgid "予約確認"
+msgstr "Confirmar reserva"
+
+#: apps/templates/front/first.html:122 apps/templates/front/second.html:89
+msgid "予約日は以下でよろしいですか。"
+msgstr "A data da reserva pode ser a seguinte?"
+
+#: apps/templates/front/first.html:130 apps/templates/front/second.html:96
+msgid "会場を選択"
+msgstr "Selecionar local"
+
+#: apps/templates/front/first.html:137 apps/templates/front/second.html:103
+msgid "いいえ"
+msgstr "Não"
+
+#: apps/templates/front/first.html:138 apps/templates/front/second.html:104
+msgid "はい"
+msgstr "Sim"
+
+# TODO TR
+#: apps/templates/front/inquiry.html:24
+msgid "日野町役場福祉保健課保健担当"
+msgstr ""
+"Câmara Municipal de Hino, Divisão de Bem-Estar e Saúde, Secção de Saúde"
+
+# TODO TR
+#: apps/templates/front/inquiry.html:26
+msgid "電話"
+msgstr "Telefone"
+
+# TODO TR
+#: apps/templates/front/inquiry.html:30
+msgid "ファックス"
+msgstr "Facsimile"
+
+# TODO TR
+#: apps/templates/front/inquiry.html:32
+msgid "E-mail"
+msgstr "Correio electrónico"
+
+# TODO TR
+#: apps/templates/front/login.html:22
+msgid "予約受付開始日時"
+msgstr "Data e hora de início da reserva"
+
+# TODO TR
+#: apps/templates/front/login.html:23
+msgid "予約を希望される方は次の日程で予約受付を行います。"
+msgstr ""
+"Aqueles que desejam fazer uma reserva aceitarão a reserva no seguinte "
+"cronograma."
+
+# TODO TR
+#: apps/templates/front/login.html:27
+msgid "対象年齢(令和4年4月1日時点)"
+msgstr "Idade alvo a partir de 1 de abril, 4º ano de Reiwa"
+
+# TODO TR
+#: apps/templates/front/login.html:28
+msgid "予約開始日時"
+msgstr "Data e hora de início da reserva"
+
+# TODO TR
+#: apps/templates/front/login.html:33
+msgid "60歳〜64歳"
+msgstr "60-64 anos"
+
+# TODO TR
+#: apps/templates/front/login.html:34
+msgid "7月15日(木) 8時45分〜"
+msgstr "Das 8:45 na quinta-feira 15 julho"
+
+# TODO TR
+#: apps/templates/front/login.html:37
+msgid "50歳〜59歳"
+msgstr "50-59 anos"
+
+# TODO TR
+#: apps/templates/front/login.html:38
+msgid "8月10日(火) 8時45分〜"
+msgstr "Das 8:45 na terça-feira 10 agosto"
+
+# TODO TR
+#: apps/templates/front/login.html:41
+msgid "40歳〜49歳"
+msgstr "40-49 anos"
+
+# TODO TR
+#: apps/templates/front/login.html:42
+msgid "8月23日(月) 8時45分〜"
+msgstr "Das 8:45 na segunda-feira, 23 agosto"
+
+# TODO TR
+#: apps/templates/front/login.html:45
+msgid "30歳〜39歳"
+msgstr "30-39 anos"
+
+# TODO TR
+#: apps/templates/front/login.html:46
+msgid "8月30日(月) 8時45分〜"
+msgstr "Das 8:45 na segunda-feira, 30 agosto"
+
+# TODO TR
+#: apps/templates/front/login.html:49
+msgid "16歳〜29歳"
+msgstr "16-29 anos"
+
+# TODO TR
+#: apps/templates/front/login.html:50
+msgid "9月6日(月) 8時45分〜"
+msgstr "Das 8:45 na segunda-feira, 6 setembro"
+
+# TODO TR
+#: apps/templates/front/login.html:54
+msgid "※大規模接種または職域接種との二重予約はお控えください。"
+msgstr ""
+"※Evite reservas duplas com vacinas em grande escala ou vacinas ocupacionais."
+
+# TODO TR
+#: apps/templates/front/login.html:55
+msgid ""
+"※今後、国からのワクチン供給量によっては、予約受付を制限する場合がありますの"
+"で、予めご了承をお願いします。"
+msgstr ""
+"※Observe que as reservas podem ser restritas no futuro, dependendo da "
+"quantidade de vacina fornecida pelo país."
+
+# TODO TR
+#: apps/templates/front/login.html:56
+msgid ""
+"※基礎疾患を有する方等で既に予約されている方は予定どおりの接種を実施します。"
+msgstr ""
+"※Quem tiver alguma doença de base e já tiver feito reserva será vacinado "
+"conforme o agendamento."
+
+# TODO TR
+#: apps/templates/front/login.html:59
+msgid "ご案内"
+msgstr "Orientação"
+
+# TODO TR
+#: apps/templates/front/login.html:60
+msgid "基礎疾患を有する方、高齢者施設等で従事されている方"
+msgstr ""
+"Aqueles que têm uma doença subjacente ou que estão envolvidos em instalações "
+"para idosos "
+
+# TODO TR
+#: apps/templates/front/login.html:60
+msgid "の接種予約は「日野町コールセンター」にて、受け付けております。"
+msgstr "podem fazer uma reserva de vacinação no Hino Town Call Center."
+
+# TODO TR
+#: apps/templates/front/login.html:62
+msgid "日野町コールセンター"
+msgstr "Hino Town Call Center"
+
+# TODO TR
+#: apps/templates/front/login.html:67
+#: apps/templates/front/post_confirmation.html:19
+msgid "※受付時間：平日9時30分〜16時00分（土・日・祝は休み）"
+msgstr ""
+"※Horário de funcionamento da recepção: dias úteis das 9:30 às 16:00. "
+"(encerrada aos fins-de-semana e feriados)"
+
+# TODO TR
+#: apps/templates/front/login.html:72
+msgid "集団接種予約"
+msgstr "Reserva de inoculação de grupo"
+
+#: apps/templates/front/login.html:73
+msgid "お手元に接種券をご用意して手続きください"
+msgstr "Tenha a ficha de vacinação em mãos para fazer a reserva."
+
+# TODO TR
+#: apps/templates/front/login.html:74
+msgid "接種券サンプル"
+msgstr "Amostra de Bilhete de Vacinação"
+
+#: apps/templates/front/login.html:83
+msgid "お手元の接種券に記載された券番号を入力してください"
+msgstr "Insira o número da sua ficha de vacinação."
+
+#: apps/templates/front/login.html:93
+msgid "生年月日(西暦)を8桁の数字で入力してください"
+msgstr "Insira a data de nascimento com oito digítos."
+
+#: apps/templates/front/login.html:94
+msgid "例）1990年1月1日　→　19900101"
+msgstr "Exemplo) 1/jan/1990 → 19900101"
+
+#: apps/templates/front/login.html:102
+msgid "予約画面へ進む"
+msgstr "Prosseguir para janela da reserva"
+
+# TODO TR
+#: apps/templates/front/login.html:103
+msgid "日野町から転出された方は、ここでの予約は行えません。"
+msgstr ""
+"Aqueles que se mudaram da cidade de Hino não podem fazer reservas aqui."
+
+#: apps/templates/front/parts/booking_detail.html:13
+#: apps/templates/front/recommend.html:22
+msgid "start_time format"
+msgstr "G:i"
+
+#: apps/templates/front/parts/booking_detail.html:13
+#, python-format
+msgid "%(start_date)s%(start_time)s〜%(end_time)s"
+msgstr "%(start_time)s - %(end_time)s, %(start_date)s"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:18
+msgid "接種状況"
+msgstr "Estado de vacinação"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:23
+msgid "2回目の予約"
+msgstr "segunda reserva"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:26
+msgid "予約がございません"
+msgstr "Não há reserva"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:27
+msgid "再予約はコールセンターにて受け付けております"
+msgstr "Você precisa ligar para o call center para reservar novamente"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:28
+msgid "：0748-36-2218"
+msgstr ": +81 748-36-2218"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:29
+msgid "：0748-53-0606"
+msgstr ": +81 748-53-0606"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:35
+msgid "接種に関するご案内"
+msgstr "Informações sobre inoculação"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:38
+msgid "接種当日の持ち物（1回目・2回目共通）"
+msgstr "O que levar no dia da inoculação (comum na primeira e na segunda vez)"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:39
+msgid "忘れると接種が受けられないため、必ずお持ちください。"
+msgstr ""
+"Se você esquecer, não poderá receber a vacina, portanto, certifique-se de "
+"trazê-la com você."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:41
+msgid "接種券"
+msgstr "Bilhete de inoculação"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:41
+msgid "シールを剥がさずに、台紙ごとご持参ください"
+msgstr "Traga todo o papel sem remover o adesivo."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:42
+msgid "予診票"
+msgstr "Folha de exame preliminar"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:42
+msgid ""
+"事前にご自宅で記入してご持参ください。1回目・2回目それぞれに1枚ずつ必要です"
+msgstr ""
+"Por favor, preencha-o em casa com antecedência e traga-o com você. Um é "
+"necessário para cada uma das primeiras e segundas vezes."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:43
+msgid "本人確認書類"
+msgstr "Documentos de verificação de identidade"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:43
+msgid "運転免許証、健康保険証など"
+msgstr "Carteira de motorista, cartão de seguro saúde, etc."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:44
+msgid "おくすり手帳"
+msgstr "Caderno de medicina"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:44
+msgid "医師の予診（問診）の参考にさせていただきます（持っておられる方のみ）"
+msgstr ""
+"Será usado como referência para entrevistas com médicos (apenas para quem o "
+"tem)."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:48
+msgid "その他"
+msgstr "Outro"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:50
+msgid ""
+"予約時間ちょうどに会場（役場北側駐車場西隣・特設会場（旧 日野消防署跡地））へ"
+"お越しください"
+msgstr ""
+"Por favor, venha ao local(Estacionamento a oeste no lado norte do escritório "
+"do governo) apenas no horário reservado."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:51
+msgid "当日は、肩まで出しやすい服装でお越しください"
+msgstr ""
+"Por favor, venha com roupas que tornem fácil esticar os ombros durante o dia."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:52
+msgid ""
+"タクシー利用助成券を希望される場合は、役場企画振興課までお電話"
+"（0748-52-6552）で申し込みください"
+msgstr ""
+"Se desejar um bilhete subsidiado para táxi, ligue para a Divisão de "
+"Planejamento e Promoção do escritório do governo (0748-52-6552)."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:56
+msgid "中止の場合のお知らせ"
+msgstr "Aviso em caso de cancelamento"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:57
+msgid ""
+"台風の接近などで、やむを得ずワクチン接種を中止する場合があります。中止の場合"
+"は下記にてお知らせいたしますので、ご登録をお願いします。"
+msgstr ""
+"A vacinação pode ser inevitavelmente interrompida devido ao tufão que se "
+"aproxima. Em caso de cancelamento, informaremos abaixo, portanto, cadastre-"
+"se."
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:59
+msgid "日野町ホームページ"
+msgstr "Página inicial da cidade de Hino"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:60
+msgid "日野め〜る"
+msgstr "Hino Mail"
+
+# TODO TR
+#: apps/templates/front/parts/booking_detail.html:61
+msgid "防災アプリ"
+msgstr "App de prevenção de desastres"
+
+#: apps/templates/front/post_confirmation.html:5
+msgid "予約内容の確認"
+msgstr "Verificar dados da reserva"
+
+#: apps/templates/front/post_confirmation.html:6
+msgid "下記の内容で、予約を承っております。"
+msgstr "Sua reserva foi aceita conforme os dados abaixo."
+
+# TODO TR
+#: apps/templates/front/post_confirmation.html:11
+msgid "キャンセルに関して"
+msgstr "Sobre o cancelamento"
+
+# TODO TR
+#: apps/templates/front/post_confirmation.html:13
+msgid "本サイト内での予約のキャンセルは、接種日の3日前まで受け付けております。"
+msgstr ""
+"Os cancelamentos neste site são aceitos até 3 dias antes da data da "
+"inoculação."
+
+# TODO TR
+#: apps/templates/front/post_confirmation.html:14
+msgid ""
+"こちらを過ぎてキャンセルが必要な場合は「日野町コールセンター」にご連絡くださ"
+"い。"
+msgstr "Você precisa ligar para o call center para reservar novamente"
+
+# TODO TR
+#: apps/templates/front/post_confirmation.html:26
+msgid "2回目接種のみ予約する"
+msgstr "Marcar uma consulta apenas para a segunda vacinação"
+
+#: apps/templates/front/recommend.html:13
+msgid "直近で予約可能な日時は、"
+msgstr "Datas mais recentes disponíveis para reserva:"
+
+# TODO TR
+#: apps/templates/front/recommend.html:17
+#, python-format
+msgid "%(ordinal_number)s接種"
+msgstr "%(ordinal_number)s dose da vacina"
+
+#: apps/templates/front/recommend.html:22
+#, python-format
+msgid "%(start_date)s%(start_time)s〜"
+msgstr "%(start_date)s a partir das %(start_time)s"
+
+#: apps/templates/front/recommend.html:28
+msgid "です。"
+msgstr " "
+
+#: apps/templates/front/recommend.html:30
+msgid "上記で予約する"
+msgstr "Desejo reservar conforme dados acima."
+
+#: apps/templates/front/recommend.html:38
+msgid "予定が合わない方はこちら"
+msgstr "Clique aqui para escolher outras datas"
+
+#: apps/templates/front/recommend.html:44
+msgid "予約可能な接種日程がありません。"
+msgstr "Não há data disponível para reserva."
+
+#: apps/templates/front/recommend.html:44
+msgid "お手数ですが、後日、予約をやり直してください。"
+msgstr "Escolha outro dia para sua reserva."
+
+#: apps/templates/front/second.html:9
+msgid "2回目接種の予約"
+msgstr "Reserva da segunda dose"
+
+#: apps/templates/manage/login.html:3
+msgid "Django administration"
+msgstr ""
+
+#: apps/templatetags/number_of_times.py:17
+#, fuzzy
+#| msgid "number_of_times first_upper 1"
+msgid "number_of_times {'first_upper' if first_upper else 'first_lower'} 1"
+msgstr "Primeira"
+
+#: apps/templatetags/number_of_times.py:18
+#, fuzzy
+#| msgid "number_of_times first_upper 2"
+msgid "number_of_times {'first_upper' if first_upper else 'first_lower'} 2"
+msgstr "Segunda"
+
+# TODO TR
+#~ msgid "延期"
+#~ msgstr "Adiado"
+
+# TODO TR
+#~ msgid "ワクチンの供給量が確保でき次第、改めてお知らせいたします。"
+#~ msgstr ""
+#~ "Iremos notificá-lo assim que o suprimento da vacina estiver disponível."
+
+# TODO TR
+#~ msgid "現在、予約はありません。"
+#~ msgstr "Atualmente não há reservas para você."
+
+# TODO TR
+#~ msgid "7月29日(木) 8時45分〜"
+#~ msgstr "Das 8:45 na quinta-feira 29 julho"
+
+# TODO TR
+#~ msgid "8月5日(木) 8時45分〜"
+#~ msgstr "Das 8:45 na quarta-feira, 5 agosto"
+
+# TODO TR
+#~ msgid "次回の予約"
+#~ msgstr "Próxima reserva"
+
+# TODO TR
+#~ msgid "ログアウトする"
+#~ msgstr "Sair da sessão"
+
+# TODO TR
+#~ msgid "接種しました。"
+#~ msgstr "Foi vacinado."
+
+#~ msgid "予約を終了する"
+#~ msgstr "Encerrar"
+
+#~ msgid "number_of_times first_lower 1"
+#~ msgstr "primeira"
+
+#~ msgid "number_of_times first_lower 2"
+#~ msgstr "segunda"
+
+#~ msgid "start_date format full"
+#~ msgstr "j/F, Y"
+
+# TODO TR
+#~ msgid "xIDのアプリに個人識別情報確認の通知が届きます。"
+#~ msgstr ""
+#~ "Se passar muito tempo sem escolher um código de 6 dígitos, ou se "
+#~ "introduzir o código de 6 dígitos incorrectamente, terá de recomeçar a "
+#~ "partir da autenticação xID."

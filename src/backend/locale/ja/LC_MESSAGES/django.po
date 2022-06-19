@@ -1,0 +1,783 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-06 16:04+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps/front/forms/booking.py:22
+msgid "1人目接種券番号"
+msgstr ""
+
+#: apps/front/forms/booking.py:26 apps/front/forms/booking.py:34
+#: apps/front/forms/booking.py:42 apps/front/forms/booking.py:50
+#: apps/front/forms/booking.py:58 apps/front/forms/login.py:13
+msgid "10桁の半角数字で入力してください"
+msgstr ""
+
+#: apps/front/forms/booking.py:30
+msgid "2人目接種券番号"
+msgstr ""
+
+#: apps/front/forms/booking.py:31 apps/front/forms/booking.py:39
+#: apps/front/forms/booking.py:47 apps/front/forms/booking.py:55
+msgid "接種券番号を入力"
+msgstr ""
+
+#: apps/front/forms/booking.py:38
+msgid "3人目接種券番号"
+msgstr ""
+
+#: apps/front/forms/booking.py:46
+msgid "4人目接種券番号"
+msgstr ""
+
+#: apps/front/forms/booking.py:54
+msgid "5人目接種券番号"
+msgstr ""
+
+#: apps/front/forms/booking.py:62
+msgid "2人目生年月日"
+msgstr ""
+
+#: apps/front/forms/booking.py:63 apps/front/forms/booking.py:70
+#: apps/front/forms/booking.py:77 apps/front/forms/booking.py:84
+msgid "生年月日を入力"
+msgstr ""
+
+#: apps/front/forms/booking.py:69
+msgid "3人目生年月日"
+msgstr ""
+
+#: apps/front/forms/booking.py:76
+msgid "4人目生年月日"
+msgstr ""
+
+#: apps/front/forms/booking.py:83
+msgid "5人目生年月日"
+msgstr ""
+
+#: apps/front/forms/booking.py:124
+msgid "接種券番号を入力した場合は生年月日も入力してください"
+msgstr ""
+
+#: apps/front/forms/booking.py:127
+msgid "生年月日を入力した場合は接種券番号も入力してください"
+msgstr ""
+
+#: apps/front/forms/booking.py:132 apps/front/forms/login.py:36
+msgid "接種券番号と生年月日が一致しません"
+msgstr ""
+
+#: apps/front/forms/booking.py:136
+msgid "予約済みの接種券は入力できません"
+msgstr ""
+
+#: apps/front/forms/booking.py:142
+msgid "重複した接種券番号が入力されています"
+msgstr ""
+
+#: apps/front/forms/contact.py:8 apps/templates/front/confirmation.html:23
+msgid "予約者氏名"
+msgstr ""
+
+#: apps/front/forms/contact.py:9
+msgid "予約者氏名を入力"
+msgstr ""
+
+#: apps/front/forms/contact.py:11
+msgid "255文字以内で入力してください"
+msgstr ""
+
+#: apps/front/forms/contact.py:15 apps/templates/front/confirmation.html:25
+msgid "連絡先電話番号"
+msgstr ""
+
+#: apps/front/forms/contact.py:16
+msgid "連絡先電話番号を入力"
+msgstr ""
+
+#: apps/front/forms/contact.py:19
+msgid "0から始まる10-11桁の半角数字で入力してください"
+msgstr ""
+
+#: apps/front/forms/contact.py:23 apps/templates/front/confirmation.html:27
+msgid "個人情報の取り扱い(プライバシーポリシー)に同意する"
+msgstr ""
+
+#: apps/front/forms/contact.py:27
+msgid "PrivacyAgreePrefix"
+msgstr "&#8203;"
+
+msgid "PrivacyAgreeLabel"
+msgstr "個人情報の取り扱い(プライバシーポリシー)"
+
+msgid "PrivacyAgreeSuffix"
+msgstr "に同意する"
+
+#: apps/front/forms/login.py:10 apps/templates/front/add_person.html:18
+#: apps/templates/front/add_person.html:43
+#: apps/templates/front/add_person.html:72
+#: apps/templates/front/add_person.html:101
+#: apps/templates/front/add_person.html:130
+#: apps/templates/front/get_vaccinate.html:7 apps/templates/front/login.html:30
+msgid "接種券番号"
+msgstr ""
+
+#: apps/front/forms/login.py:17 apps/templates/front/add_person.html:21
+#: apps/templates/front/add_person.html:52
+#: apps/templates/front/add_person.html:81
+#: apps/templates/front/add_person.html:110
+#: apps/templates/front/add_person.html:139
+#: apps/templates/front/get_vaccinate.html:8 apps/templates/front/login.html:40
+msgid "生年月日"
+msgstr ""
+
+#: apps/front/views/booking.py:61 apps/front/views/booking.py:111
+msgid "指定された予約枠が埋まっています"
+msgstr ""
+
+#: apps/front/views/booking.py:157
+msgid "予約確定に失敗しました。"
+msgstr ""
+
+#: apps/front/views/confirmation.py:46
+msgid "予約確定に失敗しました。1回目の予約からやり直してください。"
+msgstr ""
+
+#: apps/front/views/contact.py:18 apps/front/views/contact.py:33
+msgid "一定時間が経過したために予約に失敗しました。"
+"日程選択をやり直してください。"
+msgstr ""
+
+#: apps/lib/enum.py:89 apps/templates/front/done.html:4
+msgid "完了"
+msgstr ""
+
+#: apps/lib/enum.py:90
+msgid "接種待ち"
+msgstr ""
+
+#: apps/lib/enum.py:91
+msgid "仮予約"
+msgstr ""
+
+#: apps/lib/enum.py:92
+msgid "キャンセル"
+msgstr ""
+
+#: apps/lib/utils.py:138
+msgid "日野町コロナワクチン集団接種の%(ordinal_number)s接種予約"
+      "（%(j_start_time)s%(e_start_time)s）がキャンセルされました。"
+msgstr "日野町コロナワクチン集団接種の%(ordinal_number)s接種予約"
+       "（%(j_start_time)s）がキャンセルされました。"
+
+#: apps/lib/utils.py:145
+msgid "お手数ですが、再予約をお願い致します。"
+msgstr ""
+
+#: apps/templates/400.html:6 apps/templates/403.html:6
+#: apps/templates/404.html:6 apps/templates/500.html:6
+#: apps/templates/front/_base.html:23 apps/templates/front/_base.html:30
+#: apps/templates/front/inquiry.html:17 apps/templates/front/login.html:18
+#: apps/templates/front/privacy.html:17 apps/templates/front/terms.html:17
+msgid "滋賀県日野町"
+msgstr ""
+
+#: apps/templates/400.html:10
+msgid "不正なリクエスト"
+msgstr ""
+
+#: apps/templates/400.html:11
+msgid "リクエストの形式が正しくありません"
+msgstr ""
+
+#: apps/templates/403.html:10
+msgid "アクセス権限エラー"
+msgstr ""
+
+#: apps/templates/403.html:11
+msgid "アクセスされたページは表示できません"
+msgstr ""
+
+#: apps/templates/404.html:10
+msgid "ページが見つかりませんでした"
+msgstr ""
+
+#: apps/templates/404.html:11
+msgid "アクセスされたページは、移動または削除された可能性があります。"
+msgstr ""
+
+#: apps/templates/500.html:10
+msgid "サーバーエラー"
+msgstr ""
+
+#: apps/templates/500.html:11
+msgid "サーバーがエラーを検出したため、"
+      "ページを表示することができませんでした。"
+      "しばらく時間をおいてからもう一度アクセスして頂くか、"
+      "管理者にお問い合わせください。"
+msgstr ""
+
+#: apps/templates/front/_base.html:23 apps/templates/front/_base.html:32
+#: apps/templates/front/inquiry.html:18 apps/templates/front/login.html:19
+#: apps/templates/front/privacy.html:18 apps/templates/front/terms.html:18
+msgid "コロナワクチン集団接種予約"
+msgstr ""
+
+#: apps/templates/front/_base.html:78
+msgid "利用規約"
+msgstr ""
+
+#: apps/templates/front/_base.html:79
+msgid "プライバシーポリシー"
+msgstr ""
+
+#: apps/templates/front/_base.html:80 apps/templates/front/inquiry.html:21
+msgid "お問い合わせ"
+msgstr ""
+
+#: apps/templates/front/add_person.html:7 apps/templates/front/first.html:4
+#: apps/templates/front/recommend.html:6
+msgid "接種日時予約"
+msgstr ""
+
+#: apps/templates/front/add_person.html:12
+msgid "同時に予約を行いたい方の接種券番号と生年月日を入力してください"
+msgstr ""
+
+#: apps/templates/front/add_person.html:26
+msgid "1人目"
+msgstr ""
+
+#: apps/templates/front/add_person.html:37
+msgid "2人目"
+msgstr ""
+
+#: apps/templates/front/add_person.html:66
+msgid "3人目"
+msgstr ""
+
+#: apps/templates/front/add_person.html:95
+msgid "4人目"
+msgstr ""
+
+#: apps/templates/front/add_person.html:124
+msgid "5人目"
+msgstr ""
+
+#: apps/templates/front/add_person.html:153 apps/templates/front/cancel.html:14
+#: apps/templates/front/confirmation.html:31
+#: apps/templates/front/contact.html:47 apps/templates/front/first.html:144
+#: apps/templates/front/recommend.html:40
+#: apps/templates/front/recommend.html:47 apps/templates/front/second.html:110
+msgid "戻る"
+msgstr ""
+
+#: apps/templates/front/add_person.html:154
+msgid "確認する"
+msgstr ""
+
+#: apps/templates/front/cancel.html:6
+msgid "予約キャンセルの確認"
+msgstr ""
+
+#: apps/templates/front/cancel.html:7
+msgid "下記の予約をキャンセルします。"
+"一度キャンセルした内容を、復旧させることはできませんので、"
+"再度予約の手続きを行ってください。"
+msgstr ""
+
+#: apps/templates/front/cancel.html:8
+msgid "なお、ワクチンの在庫の関係で、"
+"1回目と2回目は原則3週間後の同曜日同時間とさせて"
+"いただいておりますので、"
+"両方の予約がキャンセルとなりますので、ご注意ください。"
+msgstr ""
+
+#: apps/templates/front/cancel.html:9
+msgid "また、1回目の接種が完了している場合、"
+"2回目の予約のみキャンセルとなります。"
+msgstr ""
+
+#: apps/templates/front/cancel.html:9
+msgid "その場合の再予約はコールセンターまで問い合わせください。"
+msgstr ""
+
+
+#: apps/templates/front/cancel.html:15
+msgid "内容確認の上、"
+msgstr ""
+
+#: apps/templates/front/cancel.html:15
+#: apps/templates/front/post_confirmation.html:15
+msgid "予約をキャンセルする"
+msgstr ""
+
+#: apps/templates/front/cancel_complete.html:5
+msgid "キャンセルが完了しました"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:6
+msgid "内容確認"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:7
+msgid "下記で予約しますので、内容をご確認ください。"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:13
+#: apps/templates/front/parts/booking_detail.html:7
+#, python-format
+msgid "%(ordinal_number)sの予約"
+msgstr "%(ordinal_number)sの予約"
+
+#: apps/templates/front/confirmation.html:16
+#: apps/templates/front/parts/booking_detail.html:12
+msgid "予約日時"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:17
+#: apps/templates/front/parts/booking_detail.html:13
+#: apps/templates/front/recommend.html:22
+msgid "%(start_date)s%(start_time)s〜%(end_time)s"
+msgstr "%(start_date)s%(start_time)s〜%(end_time)s"
+
+#: apps/templates/front/confirmation.html:20
+#: apps/templates/front/parts/booking_detail.html:17
+msgid "接種会場"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:28
+msgid "同意する"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:32
+msgid "上記内容で予約する"
+msgstr ""
+
+#: apps/templates/front/contact.html:4
+msgid "連絡先情報"
+msgstr ""
+
+#: apps/templates/front/contact.html:5
+msgid "連絡先情報を入力してください。"
+msgstr ""
+
+#: apps/templates/front/contact.html:48
+msgid "内容確認へ進む"
+msgstr ""
+
+#: apps/templates/front/done.html:6
+msgid "お手続きありがとうございます。"
+msgstr ""
+
+#: apps/templates/front/done.html:6
+msgid "予約を受け付けました。"
+msgstr ""
+
+#: apps/templates/front/done.html:11
+msgid "トップページに戻る"
+msgstr ""
+
+#: apps/templates/front/first.html:9
+msgid "ワクチン接種日を予約します。"
+msgstr ""
+
+#: apps/templates/front/first.html:10
+msgid "ワクチンの在庫の関係で同時の予約をお願いしております。"
+msgstr ""
+
+#: apps/templates/front/first.html:11 apps/templates/front/second.html:9
+msgid "1回目のワクチン接種から3週間後に"
+"2回目の接種を行っていただく必要がございます。"
+msgstr ""
+
+#: apps/templates/front/first.html:14
+msgid "※複数名分の予約を一括で行うこともできます。"
+msgstr ""
+
+#: apps/templates/front/first.html:16
+msgid "複数まとめて予約"
+msgstr ""
+
+#: apps/templates/front/first.html:21
+#, python-format
+msgid "以下の接種券番号の%(user_count)s名分をまとめて予約します"
+msgstr ""
+
+#: apps/templates/front/first.html:34 apps/templates/front/second.html:13
+msgid "日時を選択"
+msgstr ""
+
+#: apps/templates/front/first.html:83 apps/templates/front/second.html:56
+#: apps/templates/manage/booking/edit_datetime.html:73
+msgid "〜"
+msgstr ""
+
+#: apps/templates/front/first.html:90 apps/templates/front/first.html:92
+#: apps/templates/front/second.html:62
+msgid "%(start_date)s%(start_time)s〜"
+msgstr "%(start_date)s%(start_time)s〜"
+
+#: apps/templates/front/first.html:95 apps/templates/front/second.html:65
+msgid "△"
+msgstr ""
+
+#: apps/templates/front/first.html:95 apps/templates/front/second.html:65
+msgid "◯"
+msgstr ""
+
+#: apps/templates/front/first.html:97 apps/templates/front/second.html:67
+msgid "×"
+msgstr ""
+
+#: apps/templates/front/first.html:113 apps/templates/front/second.html:83
+msgid "予約確認"
+msgstr ""
+
+#: apps/templates/front/first.html:118 apps/templates/front/second.html:88
+msgid "予約日は以下でよろしいですか。"
+msgstr ""
+
+#: apps/templates/front/first.html:126 apps/templates/front/second.html:95
+msgid "会場を選択"
+msgstr ""
+
+#: apps/templates/front/first.html:133 apps/templates/front/second.html:102
+msgid "いいえ"
+msgstr ""
+
+#: apps/templates/front/first.html:134 apps/templates/front/second.html:103
+msgid "はい"
+msgstr ""
+
+#: apps/templates/front/get_vaccinate.html:5
+msgid "次回の予約"
+msgstr ""
+
+#: apps/templates/front/get_vaccinate.html:11
+msgid "現在、接種待ちの予約はありません。"
+msgstr ""
+
+#: apps/templates/front/get_vaccinate.html:12
+msgid "ログアウトする"
+msgstr ""
+
+#: apps/templates/front/get_vaccinate.html:16
+msgid "本日が接種日です"
+msgstr ""
+
+#: apps/templates/front/get_vaccinate.html:19
+msgid "接種しました。"
+msgstr ""
+
+#: apps/templates/front/get_vaccinate.html:26
+#, python-format
+msgid "次回の予約は%(left_days)s日後です"
+msgstr ""
+
+#: apps/templates/front/inquiry.html:24
+msgid "日野町役場福祉保健課保健担当"
+msgstr ""
+
+#: apps/templates/front/inquiry.html:26
+msgid "電話"
+msgstr ""
+
+#: apps/templates/front/inquiry.html:30
+msgid "ファックス"
+msgstr ""
+
+#: apps/templates/front/inquiry.html:32
+msgid "E-mail"
+msgstr ""
+
+#: apps/templates/front/login.html:22
+msgid "予約受付開始日時"
+msgstr ""
+
+#: apps/templates/front/login.html:23
+msgid "予約を希望される方は次の日程で予約受付を行います。"
+msgstr ""
+
+#: apps/templates/front/login.html:27
+msgid "対象年齢(令和4年4月1日時点)"
+msgstr ""
+
+#: apps/templates/front/login.html:28
+msgid "予約開始日時"
+msgstr ""
+
+#: apps/templates/front/login.html:33
+msgid "60歳〜64歳"
+msgstr ""
+
+#: apps/templates/front/login.html34
+msgid "7月15日(木) 8時45分〜"
+msgstr ""
+
+#: apps/templates/front/login.html:37
+msgid "50歳〜59歳"
+msgstr ""
+
+#: apps/templates/front/login.html:38
+msgid "8月10日(火) 8時45分〜"
+msgstr ""
+
+#: apps/templates/front/login.html:41
+msgid "40歳〜49歳"
+msgstr ""
+
+#: apps/templates/front/login.html:42
+msgid "7月29日(木) 8時45分〜"
+msgstr ""
+
+#: apps/templates/front/login.html:45
+msgid "30歳〜39歳"
+msgstr ""
+
+#: apps/templates/front/login.html46
+msgid "8月5日(木) 8時45分〜"
+msgstr ""
+
+#: apps/templates/front/login.html:49
+msgid "16歳〜29歳"
+msgstr ""
+
+#: apps/templates/front/login.html:50
+msgid "8月12日(木) 8時45分〜"
+msgstr ""
+
+#: apps/templates/front/login.html:54
+msgid "※大規模接種または職域接種との二重予約はお控えください。"
+msgstr ""
+
+#: apps/templates/front/login.html:57
+msgid "ご案内"
+msgstr ""
+
+#: apps/templates/front/login.html:58
+msgid "基礎疾患を有する方、高齢者施設等で従事されている方"
+msgstr ""
+
+#: apps/templates/front/login.html:58
+msgid "の接種予約は「日野町コールセンター」にて、受け付けております。"
+msgstr ""
+
+#: apps/templates/front/login.html:60
+msgid "日野町コールセンター"
+msgstr ""
+
+#: apps/templates/front/login.html:65
+msgid "※受付時間：平日9時30分〜16時00分（土・日・祝は休み）"
+msgstr ""
+
+#: apps/templates/front/login.html:70
+msgid "集団接種予約"
+msgstr ""
+
+#: apps/templates/front/login.html:71
+msgid "お手元に接種券をご用意して手続きください"
+msgstr ""
+
+#: apps/templates/front/login.html:32
+msgid "お手元の接種券に記載された券番号を入力してください"
+msgstr ""
+
+#: apps/templates/front/login.html:42
+msgid "生年月日(西暦)を8桁の数字で入力してください"
+msgstr ""
+
+#: apps/templates/front/login.html:43
+msgid "例）1990年1月1日　→　19900101"
+msgstr ""
+
+#: apps/templates/front/login.html:51
+msgid "予約画面へ進む"
+msgstr ""
+
+#: apps/templates/front/parts/booking_detail.html:18
+msgid "接種状況"
+msgstr ""
+
+#: apps/templates/front/parts/booking_detail.html:24
+msgid "接種に関するご案内"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:27
+msgid "接種当日の持ち物（1回目・2回目共通）"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:28
+msgid "忘れると接種が受けられないため、必ずお持ちください。"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:30
+msgid "接種券"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:30
+msgid "シールを剥がさずに、台紙ごとご持参ください"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:31
+msgid "予診票"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:31
+msgid "事前にご自宅で記入してご持参ください。1回目・2回目それぞれに1枚ずつ必要です"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:32
+msgid "本人確認書類"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:32
+msgid "運転免許証、健康保険証など"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:33
+msgid "おくすり手帳"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:33
+msgid "医師の予診（問診）の参考にさせていただきます（持っておられる方のみ）"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:37
+msgid "その他"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:39
+msgid "予約時間ちょうどに会場（役場北側駐車場西隣・特設会場（旧 日野消防署跡地））へお越しください"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:40
+msgid "当日は、肩まで出しやすい服装でお越しください"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:41
+msgid "タクシー利用助成券を希望される場合は、役場企画振興課までお電話（0748-52-6552）で申し込みください"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:45
+msgid "中止の場合のお知らせ"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:46
+msgid "台風の接近などで、やむを得ずワクチン接種を中止する場合があります。中止の場合は下記にてお知らせいたしますので、ご登録をお願いします。"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:48
+msgid "日野町ホームページ"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:49
+msgid "日野め〜る"
+msgstr ""
+#: apps/templates/front/parts/booking_detail.html:50
+msgid "防災アプリ"
+msgstr ""
+
+#: apps/templates/front/post_confirmation.html:5
+msgid "予約内容の確認"
+msgstr ""
+
+#: apps/templates/front/post_confirmation.html:6
+msgid "下記の内容で、予約を承っております。"
+msgstr ""
+
+#: apps/templates/front/post_confirmation.html:12
+msgid "2回目接種のみ予約する"
+msgstr ""
+
+#: apps/templates/front/post_confirmation.html:18
+msgid "予約を終了する"
+msgstr ""
+
+#: apps/templates/front/recommend.html:13
+msgid "直近で予約可能な日時は、"
+msgstr ""
+
+#: apps/templates/front/recommend.html:17
+#, python-format
+msgid "%(ordinal_number)s接種"
+msgstr "%(ordinal_number)s接種"
+
+#: apps/templates/front/recommend.html:28
+msgid "です。"
+msgstr ""
+
+#: apps/templates/front/recommend.html:30
+msgid "上記で予約する"
+msgstr ""
+
+#: apps/templates/front/recommend.html:38
+msgid "予定が合わない方はこちら"
+msgstr ""
+
+#: apps/templates/front/recommend.html:44
+msgid "予約可能な接種日程がありません。"
+msgstr ""
+
+#: apps/templates/front/recommend.html:44
+msgid "お手数ですが、後日、予約をやり直してください。"
+msgstr ""
+
+#: apps/templates/front/second.html:8
+msgid "2回目接種の予約"
+msgstr ""
+
+#: apps/templatetags/number_of_times.py:17
+msgid "number_of_times first_upper 1"
+msgstr "1回目"
+
+msgid "number_of_times first_upper 2"
+msgstr "2回目"
+
+msgid "number_of_times first_lower 1"
+msgstr "1回目"
+
+msgid "number_of_times first_lower 2"
+msgstr "2回目"
+
+msgid "start_time format"
+msgstr "G:i"
+
+#: apps/templates/front/confirmation.html:23 apps/templates/front/first.html:89
+#: apps/templates/front/first.html:91
+msgid "start_hours format"
+msgstr "G:"
+
+#: apps/templates/front/confirmation.html:23 apps/templates/front/first.html:89
+#: apps/templates/front/first.html:91
+msgid "start_minutes format"
+msgstr "i"
+
+msgid "start_date format short"
+msgstr "n月j日（D）"
+
+msgid "start_date format full"
+msgstr "Y年n月j日（D）"
+
+msgid "個人識別情報用コード確認画面"
+msgstr ""
+
+msgid "xIDのアプリに個人識別情報確認の通知が届きます。"
+msgstr ""
+
+msgid "選択肢の中から、以下の6桁のコードを選択してください。"
+msgstr ""
+
+msgid "6桁のコードを選択後、個人識別情報の入力画面が表示されますので、個人識別情報を入力してください。入力後は、マイナンバーカードを使用して認証を行ってください。"
+msgstr ""
+
+msgid "※6桁のコードを選ばずに長時間経過した場合や6桁のコードを間違えて入力した場合は、xIDの認証からやり直しとなります。"
+msgstr ""
+
+msgid "接種券サンプル"
+msgstr ""
+
+#: apps/templates/front/login.html:115
+msgid "日野町から転出された方は、ここでの予約は行えません。"
+msgstr ""
+
+#: apps/templates/front/confirmation.html:7
+msgid "予約はまだ完了していません"
+msgstr ""

@@ -1,0 +1,45 @@
+version: "3"
+
+services:
+  db:
+    container_name: mysql
+    build: ./mysql
+    restart: always
+    volumes:
+      - node_mysql:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+  web:
+    image: nginx:1.21.3-alpine
+    container_name: nginx
+    build: ./nginx
+    ports:
+      - 8000:8000
+    expose:
+      - "8000"
+    depends_on:
+      - app
+
+  app:
+    container_name: django-python
+    environment:
+      DATABASE_HOST: db
+      DJANGO_SETTINGS_MODULE: config.settings.develop
+      MYSQL_DATABASE: hino_mep
+      MYSQL_USER: mep_user
+      MYSQL_PASSWORD: secret
+    build: .
+    volumes:
+      - ./src:/code #バインドマウント
+    restart: always
+    ports:
+      - 8080:8080
+    command: uwsgi --ini /uwsgi/conf/develop.ini
+    expose:
+      - "8080"
+    depends_on:
+      - db
+
+volumes:
+  node_mysql:

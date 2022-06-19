@@ -1,0 +1,15 @@
+{% extends "front/_base.html" %}
+{% load i18n %}
+{% block content %}
+    <div class="bg-white">
+        <div class="my-5 pt-4 text-center">
+            <img src="/static/img/hino_logo.png" alt="{% trans "滋賀県日野町" %}" class="d-block mx-auto mb-4">
+        </div>
+    </div>
+    <div class="bg-light p-5 rounded text-center">
+        <h1 class="mt-3">{{ _("サーバーエラー") }}</h1>
+        <p class="lead">{{ _("サーバーがエラーを検出したため、ページを表示することができませんでした。しばらく時間をおいてからもう一度アクセスして頂くか、管理者にお問い合わせください。") }}</p>
+        <a class="btn btn-lg btn-primary" href="/{% if LANGUAGE_CODE != 'ja' %}{{ LANGUAGE_CODE }}{% endif %}"
+           role="button">{% trans "戻る" %}</a>
+    </div>
+{% endblock %}

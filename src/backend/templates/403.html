@@ -1,0 +1,15 @@
+{% extends "front/_base.html" %}
+{% load i18n %}
+{% block content %}
+    <div class="bg-white">
+        <div class="my-5 pt-4 text-center">
+            <img src="/static/img/hino_logo.png" alt="{% trans "滋賀県日野町" %}" class="d-block mx-auto mb-4">
+        </div>
+    </div>
+    <div class="bg-light p-5 rounded text-center">
+        <h1 class="mt-3">{{ _("アクセス権限エラー") }}</h1>
+        <p class="lead">{{ _("アクセスされたページは表示できません") }}</p>
+        <a class="btn btn-lg btn-primary" href="/{% if LANGUAGE_CODE != 'ja' %}{{ LANGUAGE_CODE }}{% endif %}"
+           role="button">{{ _("戻る") }}</a>
+    </div>
+{% endblock %}

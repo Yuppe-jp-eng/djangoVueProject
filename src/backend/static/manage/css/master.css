@@ -1,0 +1,415 @@
+/* common */
+body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+  padding-top: 50px;
+  max-width: 720px;
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+#main-content {
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+
+/* spaceing */
+.border-5 {
+  border-width: 5px !important;
+}
+
+/* header */
+.header {
+  position: fixed;
+  top: 50;
+  width: 100%;
+  height: 50px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler {
+  z-index: 2;
+}
+
+.navbar-brand-center {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-collapse {
+  width: 30%;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.multilingual {
+  margin-top: 1.5rem;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: auto;
+}
+
+.must {
+  background: #FF1A00;
+  color: #FFF;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-right: 5px;
+	padding: 3px 5px;
+	letter-spacing: 0.2em;
+}
+
+/* mypage */
+section h3.title {
+  margin: 0 0 1rem;
+  border-left: 1px solid #FFF;
+  border-width: 5px !important;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.mypage .information-container {
+  padding: 0.5rem 1rem;
+  background: rgba(0, 123, 255, 0.1);
+}
+.mypage .information dl {
+  margin: 0;
+  padding: 0.5rem;
+  height: 6rem;
+  overflow-y: auto;
+}
+.mypage .information dt {
+  float: left;
+}
+.mypage .information dd {
+  margin-left: 8rem;
+}
+.mypage .card-columns,
+.procedure .card-columns{
+  max-width: 400px;
+  margin: 0 auto;
+  column-count: 2;
+  orphans: 1;
+  widows: 1;
+}
+@media (min-width: 768px) {
+  .procedure .card-columns{
+    max-width: 600px;
+    column-count: 3;
+  }
+}
+.mypage .card,
+.procedure .card {
+  width: 100%;
+  margin: 8px;
+  border: 2.5px solid #007bff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.mypage .card .card-title,
+.procedure .card .card-title {
+  font-size: 1.2rem;
+  text-align: center;
+  color: black;
+  line-height: 2.8rem;
+}
+.mypage .card .card-title.double,
+.procedure .card .card-title.double {
+  line-height: 1.4rem;
+}
+.mypage #mypage-card #mypage-card-text,
+.procedure .card .card-text {
+  color: #555555;
+  font-size: 3.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+._todo-table #table-card {
+  color: #555555;
+  text-align: center;
+  width: 100%;
+}
+
+#table-body {
+  position: relative;
+}
+
+#procedure-btn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+#ongoing-procedure,
+#no-procedure {
+  color: #555555;
+  text-align: center; 
+  width: 100%;
+}
+
+/* hinona message */
+.hinona-message {
+  width: 100%;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+.hinona-message .faceicon {
+  float: left;
+  margin-right: -90px;
+  width: 80px;
+}
+.hinona-message .faceicon img {
+  width: 100%;
+  height: auto;
+  border: solid 3px #d7ebfe;
+  border-radius: 50%;
+}
+.hinona-message .chatting {
+  width: 100%;
+}
+.hinona-message .says {
+  display: inline-block;
+  position: relative;
+  margin: 5px 0 0 105px;
+  padding: 17px 13px;
+  border-radius: 12px;
+  background: #d7ebfe;
+}
+.hinona-message .says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: -24px;
+  border: 12px solid transparent;
+  border-right: 12px solid #d7ebfe;
+}
+.hinona-message .says p {
+  margin: 0;
+  padding: 0;
+}
+
+/* date_pick.html用 */
+.modal-area {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+.modal-area .modalBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.modal-area .modal-wrapper {
+  width: 100%;
+  max-width: 100vh;
+  min-width: 100px;
+  height: auto;
+  max-height: 80vh;
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+/* terms.html privacy.html 用*/
+.terms .start-0,
+.privacy .start-0 {
+  left: 0;
+}
+
+/*input.html 用*/
+.modal-button {
+  position: static;
+  display: inline;
+  justify-content: center; /*ボタン内の文字の位置：中央寄せ*/
+  align-items: center;
+  width: 50px;
+  height: 10px;
+  margin: auto;
+  padding: 4px 6px;
+  color: white;
+  background: #0d6efd;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-small;
+  border-radius: 15px; /*ボタンの角を丸くする*/
+  cursor: pointer;
+}
+
+
+.modal_trigger {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/*バツボタン*/
+.modal-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 35px;
+  color: #95979c !important;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0;
+}
+/*バツボタンにカーソルが合わさるとき*/
+.modal-close:hover {
+  color: #2b2e38 !important;
+}
+
+#relationship {
+  display: none;
+}
+
+/*_todo_tableチェックボックスのサイズを1.5倍にする*/
+#table-btn {
+  transform: scale(1.5);
+}
+
+/*event_input 追加削除ボタン用*/
+.adding-element {
+  position: relative;
+}
+.adding-element .del-btn {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+.add-margin {
+  position: relative;
+}
+
+#add {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+/*mixins 削除モーダル用*/
+.procedure-modalArea {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.procedure-modalArea .procedure-modalBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.procedure-modalArea .procedure-modalWrapper {
+  width: 100%;
+  max-width: 100vh;
+  min-width: 100px;
+  height: auto;
+  max-height: 80vh;
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.procedure-modalArea .procedure-modalBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*mixins 完了モーダル用*/
+.procedure-check-modalArea {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.procedure-check-modalArea .procedure-check-modalBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.procedure-check-modalArea .procedure-check-modalWrapper {
+  width: 100%;
+  max-width: 100vh;
+  min-width: 100px;
+  height: auto;
+  max-height: 80vh;
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.procedure-check-modalArea .procedure-check-modalBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
